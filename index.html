@@ -1,2 +1,5 @@
-<meta http-equiv="refresh" content="7; url='steam://launch/1245620/'" />
-
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('uri');
+    window.location.replace(myParam);
+</script>
